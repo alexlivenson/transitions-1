@@ -13,6 +13,9 @@
 		CEDF79B11A049FC600ECABB9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEDF79B01A049FC600ECABB9 /* Images.xcassets */; };
 		CEDF79B41A049FC600ECABB9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEDF79B21A049FC600ECABB9 /* LaunchScreen.xib */; };
 		CEDF79C01A049FC600ECABB9 /* TransitionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDF79BF1A049FC600ECABB9 /* TransitionsTests.swift */; };
+		CEDF79CB1A058A5800ECABB9 /* TransitionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDF79CA1A058A5800ECABB9 /* TransitionVC.swift */; };
+		CEDF79CD1A05B3EC00ECABB9 /* TransitionManager_1.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDF79CC1A05B3EC00ECABB9 /* TransitionManager_1.swift */; };
+		CEDF79D01A05EB8100ECABB9 /* TransitionManager_2.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDF79CF1A05EB8100ECABB9 /* TransitionManager_2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,9 @@
 		CEDF79B91A049FC600ECABB9 /* TransitionsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TransitionsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEDF79BE1A049FC600ECABB9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CEDF79BF1A049FC600ECABB9 /* TransitionsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitionsTests.swift; sourceTree = "<group>"; };
+		CEDF79CA1A058A5800ECABB9 /* TransitionVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransitionVC.swift; sourceTree = "<group>"; };
+		CEDF79CC1A05B3EC00ECABB9 /* TransitionManager_1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransitionManager_1.swift; sourceTree = "<group>"; };
+		CEDF79CF1A05EB8100ECABB9 /* TransitionManager_2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransitionManager_2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +83,9 @@
 		CEDF79A61A049FC600ECABB9 /* Transitions */ = {
 			isa = PBXGroup;
 			children = (
+				CEDF79CA1A058A5800ECABB9 /* TransitionVC.swift */,
+				CEDF79CE1A05EAE900ECABB9 /* Transitions-2 */,
+				CEDF79C91A0560F400ECABB9 /* Transitions-1 */,
 				CEDF79A91A049FC600ECABB9 /* AppDelegate.swift */,
 				CEDF79AB1A049FC600ECABB9 /* ViewController.swift */,
 				CEDF79AD1A049FC600ECABB9 /* Main.storyboard */,
@@ -110,6 +119,22 @@
 				CEDF79BE1A049FC600ECABB9 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CEDF79C91A0560F400ECABB9 /* Transitions-1 */ = {
+			isa = PBXGroup;
+			children = (
+				CEDF79CC1A05B3EC00ECABB9 /* TransitionManager_1.swift */,
+			);
+			name = "Transitions-1";
+			sourceTree = "<group>";
+		};
+		CEDF79CE1A05EAE900ECABB9 /* Transitions-2 */ = {
+			isa = PBXGroup;
+			children = (
+				CEDF79CF1A05EB8100ECABB9 /* TransitionManager_2.swift */,
+			);
+			name = "Transitions-2";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -212,6 +237,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEDF79CD1A05B3EC00ECABB9 /* TransitionManager_1.swift in Sources */,
+				CEDF79D01A05EB8100ECABB9 /* TransitionManager_2.swift in Sources */,
+				CEDF79CB1A058A5800ECABB9 /* TransitionVC.swift in Sources */,
 				CEDF79AC1A049FC600ECABB9 /* ViewController.swift in Sources */,
 				CEDF79AA1A049FC600ECABB9 /* AppDelegate.swift in Sources */,
 			);
