@@ -10,7 +10,9 @@ import UIKit
 
 class TransitionVC: UIViewController {
 
-    let transitionManager = TransitionManager_1()
+//    let transitionManager = TransitionManager_1()
+    let transitionManager = TransitionManager_2()
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
